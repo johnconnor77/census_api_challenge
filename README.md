@@ -21,7 +21,7 @@ cd census_api_challenge
 ### 3. Run de app
 * Use --reload only in dev environment
 ```
-uvicorn app:app --reload --port 5000
+uvicorn app:app --reload --port 8000
 ```
 
 ### 4. Go to localhost
