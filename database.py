@@ -1,8 +1,11 @@
 import sqlite3
-DATABASE_NAME = "censusbd.db"
+import os.path
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+db_path = os.path.join(BASE_DIR, "censusbd.db")
 
 def get_db():
-    conn = sqlite3.connect(DATABASE_NAME)
+    conn = sqlite3.connect(db_path)
     return conn
 
 def chk_conn(conn):
