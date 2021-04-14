@@ -25,7 +25,7 @@ uvicorn app:app --reload --port 8000
 ```
 
 ### 4. Go to localhost
-http://127.0.0.1:5000/docs
+http://127.0.0.1:8000/docs
 
 ### 5. Stop the server
 ```
