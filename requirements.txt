@@ -1,6 +1,4 @@
 fastapi~=0.63
 uvicorn~=0.13.4
-peewee~=3.14.4
 pydantic~=1.8.1
 typing~=3.7.4.3
-flask~=1.1.2
