@@ -1,0 +1,43 @@
+Num;Code;Feature;Type;Person;Codified;Migration;Employee
+0;age;Age of the worker;numeric;1;0;0;0
+1;class_worker;Class of worker;categorical;0;0;0;1
+2;det_ind_code;Industry code;categorical;0;0;0;0
+3;det_occ_code;Occupation code;categorical;0;1;0;1
+4;education;Level of education;categorical;1;1;0;0
+5;wage_per_hour;Wage per hour;numeric;0;0;0;1
+6;hs_college;Enrolled in educational institution last week;categorical;0;0;0;0
+7;marital_stat;Marital status;categorical;1;1;0;0
+8;major_ind_code;Major industry code;categorical;0;0;0;0
+9;major_occ_code;Major occupation code;categorical;0;0;0;0
+10;race;Race;categorical;1;1;0;0
+11;hisp_origin;Hispanic origin;categorical;1;1;0;0
+12;sex;Sex;categorical;1;1;0;0
+13;union_member;Member of a labor union;categorical;0;0;0;1
+14;unemp_reason;Reason for unemployment;categorical;0;0;0;1
+15;full_or_part_emp;Full- or part-time employment status;categorical;0;0;0;0
+16;capital_gains;Capital gains;numeric;0;0;0;0
+17;capital_losses;Capital losses;numeric;0;0;0;0
+18;stock_dividends;Dividends from stocks;numeric;0;0;0;0
+19;tax_filer_stat;Tax filer status;categorical;0;0;0;0
+20;region_prev_res;Region of previous residence;categorical;0;0;1;0
+21;state_prev_res;State of previous residence;categorical;0;0;1;0
+22;det_hh_fam_stat;Detailed household and family status;categorical;0;0;0;0
+23;det_hh_summ;Detailed household summary in household;categorical;0;0;0;0
+24;instance_weight;"Indicates the number of people in the population that each record represents due to stratified sampling	";numeric;0;0;0;0
+25;mig_chg_msa;Migration code - change in MSA;categorical;0;0;1;0
+26;mig_chg_reg;Migration code - change in region;categorical;0;0;1;0
+27;mig_move_reg;Migration code - move within region;categorical;0;0;1;0
+28;mig_same;Live in this house one year ago;categorical;0;0;1;0
+29;mig_prev_sunbelt;Migration - previous residence in sunbelt;categorical;0;0;1;0
+30;num_emp;Number of persons that worked for employer;numeric;0;0;1;0
+31;fam_under_18;Family members under 18;categorical;0;0;0;0
+32;country_father;Country of birth father;categorical;0;0;1;0
+33;country_mother;Country of birth mother;categorical;0;0;1;0
+34;country_self;Country of birth;categorical;0;0;1;0
+35;citizenship;Citizenship;categorical;0;0;1;0
+36;own_or_self;Own business or self-employed?;categorical;0;0;0;1
+37;vet_question;Fill included questionnaire for Veterans Administration;categorical;0;0;0;0
+38;vet_benefits;Veterans benefits;categorical;0;0;0;0
+39;weeks_worked;Weeks worked in the year;numeric;0;0;0;1
+40;year;Year of survey;numeric;1;0;0;0
+41;income_50k;Income less than or greater than $50,000;categorical;0;0;0;1
